@@ -77,5 +77,4 @@ class AtmMachine(object):
             print("invalid PIN number \n Try again")
 
     def exit(self):
-        
-        pass
+        pass 
