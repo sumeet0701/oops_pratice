@@ -19,6 +19,8 @@ class AtmMachine(object):
         # Constructor is a special method 
         # the code inside the constructor is automatically execute when we will create a class object 
         # it will automatically run when class is called 
+        # constructor are special/magic/dunder methods
+        # __init__ is magic method and those methods start with "__"and end with "__" is called a magic method
         self.pin = ""
         self.balance = 0
         self.menu()
