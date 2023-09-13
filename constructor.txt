@@ -1,0 +1,49 @@
+**About Constructor**
+1. The constructor is a method that is called when an object is created.
+   This method is defined in the class and can be used to initialize basic variables.
+2. Python facilitates a special type of method, also called as Python Constructors, to initialize the 
+    instance members of the class and to verify enough object resources for executing any startup task.
+3. Constructors are generally used for instantiating an object. 
+    The task of constructors is to initialize(assign values) to the data members of the class when an object of 
+    the class is created. In Python the __init__() method is called the constructor and is always called when an 
+    object is created.
+
+**Types of Constructor**
+
+1. Default or non_parameter constructor
+2. parameterized constructor
+
+**Default or non_parameter constructor**
+The default constructor is a simple constructor which doesn’t accept any arguments.
+Its definition has only one argument which is a reference to the instance being constructed.
+
+** parameterized constructor**
+constructor with parameters is known as parameterized constructor. The parameterized constructor takes its
+first argument as a reference to the instance being constructed known as self and the rest of the arguments 
+are provided by the programmer.
+
+**Advantages of using constructors in Python:**
+
+1. **Initialization of objects:** Constructors are used to initialize the objects of a class. 
+    They allow you to set default values for attributes or properties, and also allow you to initialize 
+    the object with custom data.
+
+2. **Easy to implement:** Constructors are easy to implement in Python, and can be defined using the __init__() method.
+3. **Better readability:** Constructors improve the readability of the code by making it clear what values are 
+    being initialized and how they are being initialized.
+4. **Encapsulation:** Constructors can be used to enforce encapsulation, by ensuring that the object’s attributes 
+    are initialized correctly and in a controlled manner.
+
+**Disadvantages of using constructors in Python:**
+
+1.**Overloading not supported:** Unlike other object-oriented languages, Python does not support method overloading. 
+    This means that you cannot have multiple constructors with different parameters in a single class.
+2. **Limited functionality:** Constructors in Python are limited in their functionality compared to constructors 
+    in other programming languages. For example, Python does not have constructors with access modifiers like 
+    public, private or protected.
+3. **Constructors may be unnecessary:** In some cases, constructors may not be necessary, as the default values 
+    of attributes may be sufficient. In these cases, using a constructor may add unnecessary complexity to the code.
+
+
+Overall, constructors in Python can be useful for initializing objects and enforcing encapsulation. However, they may not always be necessary and are limited in their functionality compared to constructors in other programming languages.
+
