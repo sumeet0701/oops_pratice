@@ -48,7 +48,8 @@ class AtmMachine(object):
     def create_pin(self):
         self.pin = input("Enter your PIN number")
         print("Pin set sucessfully")
-    
+
+        self.menu()
     def deposit(self):
         temp = input("Enter your PIN number")
         if temp == self.pin:
@@ -57,7 +58,8 @@ class AtmMachine(object):
             print("deposit sucessfully")
         else:
             print("Pin is Worng Try it again")
-    
+
+        self.menu()
     def withdraw(self):
         temp = input("Enter your PIN number")
         if temp == self.pin:
@@ -70,6 +72,8 @@ class AtmMachine(object):
         else:
             print("invalid PIN number \n Try again")
 
+        self.menu()
+
     def check_balance(self):
         temp = input("Enter PIN number")
         if temp == self.pin:
@@ -77,6 +81,8 @@ class AtmMachine(object):
         
         else:
             print("invalid PIN number \n Try again")
+        self.menu()
 
     def exit(self):
         pass 
+    

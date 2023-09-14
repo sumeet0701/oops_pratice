@@ -1,0 +1,19 @@
+what is self in OOPS ?
+    self is object so i will store a any place in memory it has id and address 
+    class is itself is a self function 
+
+    examples
+    from OOPS import AtmMachine
+    sbi = AtmMachine()
+
+    so the address of sbi is same as address of self in class
+    it means sbi is self ha
+
+    example :
+    hdfc = AtmMachine()
+
+    id(hdfc)
+    then self is hdfc 
+
+the current working object is a self function
+jo bhe object ka sath hum abhi kaam kar raha ha vohi self hota 
