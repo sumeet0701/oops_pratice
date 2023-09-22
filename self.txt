@@ -17,3 +17,5 @@ what is self in OOPS ?
 
 the current working object is a self function
 jo bhe object ka sath hum abhi kaam kar raha ha vohi self hota 
+
+using magic methods we can bulid different types of objects or data types
