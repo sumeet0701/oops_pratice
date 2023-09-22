@@ -39,11 +39,14 @@ class line:
             return "point is on Line"
         else:
             return "point doesnot lie on Line"
+    
+    def distance_line_point(line, coordinates):
+        return (abs(line.a* coordinates.x_cord + line.b*coordinates.y_cord + line.c)/(line.a**2 +line.b**2))**0.5
         
 
     
     
 l1 = line(1,1,-2)
-p1 = Coordinates(1,1)
+p1 = Coordinates(5,1)
 
-print(l1.point_on_line(p1))
+print(l1.distance_line_point(p1))
